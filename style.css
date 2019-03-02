@@ -1,0 +1,96 @@
+p, ul, ol, table {
+	text-shadow:2px 2px 5px black, 0 0 1em #003300;
+	color: white;
+	font-size: 2em;
+	font-family: 'Oswald', sans-serif;
+}
+
+body {
+	text-align: center;
+	background-color: black;
+	background-image:url(cart/wat.png);
+}
+
+h1{
+	text-shadow:2px 2px 5px black, 0 0 1em #003300;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 4em;
+}
+
+h2{
+	text-shadow:2px 2px 5px black, 0 0 1em #003300;
+	color: white;
+	font-size: 3em;
+	font-family: 'Orbitron';
+}
+
+h3{
+	text-shadow:2px 2px 5px black, 0 0 1em #003300;
+	color: #e3e9be;
+	font-size: 2.5em;
+	font-family: 'Orbitron';
+}
+
+a:link, a:visited { 
+	text-shadow:2px 2px 5px black, 0 0 1em #003300;
+	color: #c2d5ef;
+}
+
+a:link:active, a:visited:active { 
+	color: black;
+}
+
+a.back {
+	text-shadow:2px 2px 2px black;
+	color: #cccdc2;
+	font-size: 1.9em;
+	font-family: 'Orbitron';
+}
+a:hover{
+	color: #295989;
+}
+
+div{
+	margin: autho; 
+	padding-left: 20%;
+	padding-right:20%;
+}
+
+.imag{
+	box-shadow: 0px 0px 60px black, 0 0 0em #003300;
+	width: 30%;
+	animation: mymove 5s infinite;
+	clip: rect(0,100px,100px,0);
+}
+
+.imag:hover{
+	width: 50%;
+	
+}
+.icon{
+	width: 6%;
+}
+
+.icon:hover{
+	opacity: 0.8;
+	filter: alpha(opacity=100);
+}
+
+footer{
+	text-shadow:2px 2px 5px black, 0 0 1em #003300;
+	color: red;
+	font-size: 2em;
+	font-family: 'Orbitron', sans-serif;	
+}
+
+.example{
+    background: #a5daba;
+    white-space: pre;
+	font-size: 20;
+	text-align: left;
+	float: center;
+	box-shadow: 0px 0px 60px black, 0 0 0em #003300;
+}
+
+	
